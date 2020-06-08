@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license     	= "MIT"
   s.platform    	= :ios, "8.0"
 
-  s.dependency 'Mapbox-iOS-SDK-stripped', '~> 5.8'
+  s.dependency 'Mapbox-iOS-SDK-stripped'
   s.dependency 'React'
 
   s.subspec 'DynamicLibrary' do |sp|
